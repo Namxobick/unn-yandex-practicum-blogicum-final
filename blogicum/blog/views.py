@@ -1,7 +1,6 @@
 """Views of blog app."""
 from django.shortcuts import render, redirect
 from django.http import Http404
-from django.db.models import Q
 from django.utils import timezone
 from django.views.generic import ListView
 from django.shortcuts import get_object_or_404
